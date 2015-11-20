@@ -120,8 +120,3 @@ FancyList.prototype.removeItems = function() {
 
 };
 
-
-
-
-
-

@@ -35,10 +35,6 @@ describe('FancyList', function () {
       fancylist = new FancyList(1,2,3);
     });
 
-    // it('it can get an item', function() {
-    //   expect(fancylist.getItemAt(1)).toEqual('Your item is 2');
-    // });
-
     it('it can add an item', function() {
       fancylist.addItem(1);
       expect(fancylist.list).toEqual([1,2,3,1]);
@@ -83,14 +79,12 @@ describe('FancyList', function () {
 
     fancylist2 = new FancyList(['hi',2],[3,4,5],[true,false]);
 
-
     it('it can contain arrays ', function() {
       fancylist2.addItem([1]);
       expect(fancylist2.list).toEqual([['hi',2],[3,4,5],[true,false],[1]]);
     });
 
   });
-
 
 });
 
